@@ -1,3 +1,6 @@
+from copy import deepcopy
+
+
 # Not changeable objects
 number_one = 10
 number_two = number_one
@@ -30,6 +33,31 @@ conversion_list = list(info_second_new)
 print(conversion_list)
 print(type(conversion_list))
 print(id(conversion_list) > id(info_second_new))
+
+# Avoid copy changes
+my_information = {
+    'name': 'Arstan',
+    'age': '19',
+    'reviews': []
+}
+
+new_information = my_information.copy()
+new_information['reviews'].append('Program')
+print(my_information)
+print(new_information)
+# Use Deepcopy import copies method
+second_information = {
+    'name': 'Mery',
+    'age': '19',
+    'availability': []
+}
+second_deepcopy = deepcopy(second_information)
+second_deepcopy['availability'].append(True)
+print(second_information)
+print(second_deepcopy)
+print(id(second_information))
+print(id(second_deepcopy))
+
 
 
 

@@ -14,6 +14,15 @@ dif_list_2 = list(difference_second)
 print(dif_list, dif_list_2)
 print(sets_intersection,sets_uni)
 print(type(difference_first))
+# Zip using dict and list
+store_goods = {'Apple', 'Onion', 'Cucumber', 'Water Melon'}
+price_goods = {200, 110, 240, 300}
+store_goods_zip = zip(store_goods, price_goods)
+store_list = list(store_goods_zip)
+store_dict = dict(store_list)
+print(store_list, store_dict)
+
+
 
 
 

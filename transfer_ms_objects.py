@@ -45,3 +45,19 @@ print(type(person_3))
 print(id(person_3))
 
 
+def increase_ages(person):
+    person_copy = person.copy()
+    person_copy['age'] += 1
+    return person_copy
+
+person_4 = {
+    'name': 'Aidana',
+    'age': 19,
+    'id': print(id(person_3))
+}
+
+print(increase_ages(person_4))
+print(id(person_4))
+
+
+

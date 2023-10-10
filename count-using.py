@@ -28,6 +28,7 @@ numbers = list(range(start_diapason, end_diapason + 1))
 result = numbers.count(multiples_range)
 print(f"multiples ranges in Diapason: {result}")
 
-
-
-
+# Counting len
+count_len_input = str(input("Enter line in string: "))
+lens_line = len(count_len_input)
+print(f"Lens in string: {lens_line}")

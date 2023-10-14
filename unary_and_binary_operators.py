@@ -25,3 +25,49 @@ print(dir(list))
 list_sort_input = list(input("Введите список для сортировки: "))
 list_sorted = sorted(list_sort_input)
 print("Результат сортировки списка: ", list_sorted)
+
+# unary operators
+unary_op = 200
+print(-unary_op)
+# binary operators
+binary = True
+print(+binary)
+print(-binary)
+comparison = unary_op and binary
+comparison_with_use_or = binary or unary_op
+print(comparison_with_use_or)
+print(comparison)
+
+bmw = {
+    'brand': 'BMW',
+    'price': 200_000,
+    'motor': 'V8',
+    'achive': {
+        'achivable': True
+    }
+}
+
+print('brand' in bmw)
+print('achive' not in bmw)
+print('motor' and 'achive' in bmw)
+print('achive' in 'achivable' in bmw)
+
+
+print("Первый набор")
+cp1_set = {123, 131, 245, 535, None, 'set'}
+print("Второй набор")
+cp2_set = {123, 131, 245, 535, None, 'set'}
+print("Сравнение двух наборов с использованием is")
+print(cp1_set is cp2_set)  # False
+print("Сравнение двух наборов с помощью оператора сравнения")
+print(cp1_set == cp2_set)  # True
+print("Есть ли в наборе какой либо элемент")
+print(245 in cp2_set)  # True
+print(300 in cp1_set)  # False
+
+cp3_set = set()
+cp4_set = cp3_set
+cp3_4set = cp3_set == cp4_set
+print(cp3_set is cp3_4set)
+print(cp3_4set)
+print(cp3_4set)

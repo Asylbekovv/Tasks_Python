@@ -25,3 +25,42 @@ result_list = list(set(a) & set(b))
 print(f"Результат общих элементов: {result_list}")
 result_union = list(set(b) | set(a))
 print(f"Обьединение наборов: {result_union}")
+
+# Unpacking dict
+user_ip_address = {  # First user
+    'user': 'Nia',
+    'id': 192_168_1_1,
+    'email': 'nia224@gmail.com'
+}
+
+user_id_password = {
+    **user_ip_address,
+    'password': 'denji223nnn'
+}
+
+print(user_id_password)
+print(user_ip_address)
+
+# Second user views history
+user_yt_account = {
+    'user_name': 'KIRA',
+    'chanel_name': 'KIRAGAMES',
+    'number_of_view': 341,
+    'number_playlist': 7
+}
+
+user_yt_history = {
+    **user_yt_account,
+    'history_views': {
+        'Minecraft - LetsPlay',
+        'Python - Development Courses',
+        'Music - RAPTURE'
+    }
+}
+user_yt_password = {
+    **user_yt_history,
+    'password': 14234534504
+}
+
+print(user_yt_password)
+

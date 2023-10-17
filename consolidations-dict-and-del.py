@@ -14,6 +14,12 @@ people_in_country = {
     'Rome': "2758000 peoples",
     'Bishkek': "7000000 peoples",
     'Paris': "2148327 peoples",
-    'London': "648110 peoples"
+    'London': "648110 peoples",
 }
+
+info = country_dict | people_in_country
+
+for key in info:
+    print(f"{key} -- {info[key]}  ")
+
 

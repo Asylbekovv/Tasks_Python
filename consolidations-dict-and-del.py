@@ -22,4 +22,38 @@ info = country_dict | people_in_country
 for key in info:
     print(f"{key} -- {info[key]}  ")
 
+new_dict = {
+    'local': 'net',
+    'global': 'com'
+}
+conv_dict = list(new_dict)
+conv_dict.__delitem__(0)
+conv_dict.append('Host')
+print(conv_dict)
+print("--" * 20)
+
+string_list = ['ABC', '123,', 'Keep going', 'Local host']
+for j in string_list:
+    print(j)
+
+user_n_p_list = []
+for _ in range(5):
+    input_name = input("Введите свое имя: ")
+    greeting = f"Привет, {input_name} добро в админку для добавления данных!"
+    print(greeting)
+    input_password = input("Введите свой пароль: ")
+    user_n_p_list.append(f"Ваши данные:  имя:  {input_name}, пароль:  {input_password} ")
+    print('\n'.join(user_n_p_list))
+
+
+
+
+
+
+
+
+
+
+
+
 

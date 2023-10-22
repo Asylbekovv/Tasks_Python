@@ -15,6 +15,7 @@ print(plus_use_lambda(20, 20))
 
 
 def user_input(input_system):
+    pass
     return lambda name: f"{name},{input_system}"
 
 
@@ -100,3 +101,22 @@ print("Таблица умножения на 9")
 nums_9 = range(1, 11)
 mult_9 = list(map(lambda ni: ni * 9, nums_9))
 print(mult_9)
+
+
+# Использование Lambda для приветствия пользователя!
+def greeting(greet):
+    return lambda name: f"{greet}, {name}!"
+
+
+morning_greet = greeting("Доброе утро")
+print(morning_greet("Арстан"))
+
+
+# Использование Lambda для входа в систему!
+def welcome_site(sign):
+    return lambda user_s: f"{user_s}, {sign}!"
+
+
+user_commander = welcome_site("Вошел в систему")
+print(user_commander("Арстан"))
+

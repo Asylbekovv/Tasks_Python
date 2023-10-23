@@ -120,3 +120,5 @@ def welcome_site(sign):
 user_commander = welcome_site("Вошел в систему")
 print(user_commander("Арстан"))
 
+print("Signup system")
+

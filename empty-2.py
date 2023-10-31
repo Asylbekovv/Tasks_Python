@@ -1,4 +1,4 @@
-'''''# Task with use concatenate str and output in console
+# Task with use concatenate str and output in console
 first_str = "Hello "
 second_str = "Arstan"
 concatenable_text = first_str + second_str
@@ -21,7 +21,7 @@ print(another_intersection)
 print(intersection_sets)
 is_sub_set = b_set.issubset(a_set)
 print(is_sub_set)
-'''
+
 
 # Task with use tuples
 students = (('Alina', 67, 18),

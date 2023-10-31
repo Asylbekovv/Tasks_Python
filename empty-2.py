@@ -29,6 +29,25 @@ students = (('Alina', 67, 18),
             ('Aidar', 55, 19),
             ('Sultan', 88, 18))
 
-student_names = students.
+students_names = [name[0] for name in students]
+print("Students names", ' '.join(students_names))
+
+
+def students_names_fn(std):
+    empty_str = ' '
+    std = [std[0] for std in students]
+    print("Student another variant: ", empty_str.join(std))
+
+print(students_names_fn(students))
+
+
+def plus(num_1, num_2):
+    count = +1
+    res = count + num_1 + num_2
+    print(res)
+
+num_1_inp = int(input("Enter first num: "))
+num_2_inp = int(input("Enter second num: "))
+print("Result: ", plus(num_1_inp, num_2_inp))
 
 

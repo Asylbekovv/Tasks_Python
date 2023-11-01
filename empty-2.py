@@ -49,5 +49,6 @@ def plus(num_1, num_2):
 num_1_inp = int(input("Enter first num: "))
 num_2_inp = int(input("Enter second num: "))
 print("Result: ", plus(num_1_inp, num_2_inp))
+print("Hello world")
 
 

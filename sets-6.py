@@ -23,6 +23,7 @@ j_list = ['L', 'Manhwa', 'Manga', 'Paper', 'Pen']
 i_list = ['Manhwa', 'Manga', 'L', 'Pencil', 'Marker']
 j_i_intersection = set(j_list).intersection(set(i_list))
 print(f"Intersection list: {j_i_intersection}")
+print(j_i_intersection)
 
 
 

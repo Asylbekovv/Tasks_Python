@@ -39,4 +39,5 @@ print(f"Info ID student: {mia_info['identification']}")
 print(f"Date of Brith: {mia_info['born']} ")
 
 print("--" * 40)
+print("The end")
 

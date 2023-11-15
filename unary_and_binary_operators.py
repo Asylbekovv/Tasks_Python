@@ -69,5 +69,4 @@ cp3_set = set()
 cp4_set = cp3_set
 cp3_4set = cp3_set == cp4_set
 print(cp3_set is cp3_4set)
-print(cp3_4set)
-print(cp3_4set)
+print(cp3_4set)

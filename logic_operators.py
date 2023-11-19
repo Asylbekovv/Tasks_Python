@@ -3,8 +3,7 @@ print(not 10)  # False
 print(not False)  # True
 print(not 0)  # True
 print(not True)  # False
-print(not not False)  # True
-print(not 'abc')  # True
+
 print(not [])  # True
 print(not {})  # True
 white_list = [1, 2, 3]  # False

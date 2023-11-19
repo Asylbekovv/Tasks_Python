@@ -47,4 +47,4 @@ first_dict == second_dict and print("Dictionary are equal")
 first_dict != second_dict and print("The first list is not equal to the second")
 second_dict != first_dict or print("First and Second dict are equal")
 second_dict != first_dict or print("First and Second dict are equal")
-
+print(12)

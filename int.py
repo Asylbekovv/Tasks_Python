@@ -55,8 +55,7 @@ second_deepcopy = deepcopy(second_information)
 second_deepcopy['availability'].append(True)
 print(second_information)
 print(second_deepcopy)
-print(id(second_information))
-print(id(second_deepcopy))
+print(id(second_information))
 
 
 

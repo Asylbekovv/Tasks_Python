@@ -18,4 +18,5 @@ print("Наименьший элемент")
 print(min(greatest_list))
 print("Длинна списка")
 print(len(greatest_list))
+print(len(greatest_list))
 

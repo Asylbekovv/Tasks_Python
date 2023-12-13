@@ -5,5 +5,5 @@ merged_list = first_list + second_list
 # second variant output
 print(first_list.__add__(second_list))
 
-print(merged_list)
+
 

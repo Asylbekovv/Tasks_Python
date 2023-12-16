@@ -1,4 +1,4 @@
-# Intersections set
+# Intersections set a
 a_box = (1312, 123, 245, 345, 466, 6765, 567, 567)
 b_box = (123, 345, 5546, 456, 453, 234, 6575, 453)
 intersect_box_a = set(a_box)
